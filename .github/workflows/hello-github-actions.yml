@@ -1,0 +1,15 @@
+name: Hello Github Actions
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  hello-github-actions:
+    runs-on: ubuntu-lastest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ./
+    
