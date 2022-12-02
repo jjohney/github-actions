@@ -1,0 +1,7 @@
+name: 'Hello Github Actions'
+description: 'Saying hello to github actions!'
+author: 'jjohney'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
